@@ -1,4 +1,4 @@
-﻿using CymaxAssessmentAPI.Facade;
+﻿using CymaxAssessmentAPI.BaseModels;
 
 namespace CymaxAssessmentAPI.Models
 {

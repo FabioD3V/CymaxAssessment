@@ -1,9 +1,6 @@
-﻿using CymaxAssessmentAPI.Facade;
-using System;
+﻿using CymaxAssessmentAPI.BaseModels;
 using System.Collections.Generic;
-using System.Linq;
 using System.Runtime.Serialization;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 namespace CymaxAssessmentAPI.Models

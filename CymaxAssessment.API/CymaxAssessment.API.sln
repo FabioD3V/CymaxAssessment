@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CymaxAssessmentAPI", "..\Cy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CymaxAssessmentAPI.Tests", "..\CymaxAssessmentAPI.Tests\CymaxAssessmentAPI.Tests.csproj", "{0E137733-E092-4766-8610-A04DFBC2675C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CymaxAssessment.Client", "..\CymaxAssessment.Client\CymaxAssessment.Client.csproj", "{3A7BA733-17FC-4F68-AD5B-52D0EEA887C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0E137733-E092-4766-8610-A04DFBC2675C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E137733-E092-4766-8610-A04DFBC2675C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E137733-E092-4766-8610-A04DFBC2675C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A7BA733-17FC-4F68-AD5B-52D0EEA887C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A7BA733-17FC-4F68-AD5B-52D0EEA887C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A7BA733-17FC-4F68-AD5B-52D0EEA887C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A7BA733-17FC-4F68-AD5B-52D0EEA887C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

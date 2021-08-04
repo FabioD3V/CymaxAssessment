@@ -15,6 +15,10 @@ namespace CymaxAssessmentAPI.Repositories
             _context = context;
         }
 
+        /// <summary>
+        /// Get fake carton data
+        /// </summary>
+        /// <returns></returns>
         public async Task<List<Carton>> GetCartons()
         {
             var cartons = await _context.Cartons.ToListAsync();
@@ -27,6 +31,10 @@ namespace CymaxAssessmentAPI.Repositories
             return cartons;
         }
 
+        /// <summary>
+        /// Just simulates random prices
+        /// </summary>
+        /// <returns></returns>
         private double GetRandomPrice()
         {
             Random random = new Random();

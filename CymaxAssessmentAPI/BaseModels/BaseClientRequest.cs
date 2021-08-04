@@ -1,4 +1,4 @@
-﻿namespace CymaxAssessmentAPI.Facade
+﻿namespace CymaxAssessmentAPI.BaseModels
 {
     public class BaseClientRequest
     {

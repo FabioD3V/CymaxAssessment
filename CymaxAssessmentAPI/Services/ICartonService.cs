@@ -1,4 +1,4 @@
-﻿using CymaxAssessmentAPI.Facade;
+﻿using CymaxAssessmentAPI.BaseModels;
 using System.Threading.Tasks;
 
 namespace CymaxAssessmentAPI.Services

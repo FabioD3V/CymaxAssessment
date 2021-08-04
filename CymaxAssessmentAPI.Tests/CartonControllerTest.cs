@@ -9,12 +9,13 @@ namespace CymaxAssessmentAPI.Tests
     public class CartonControllerTest
     {
         ICartonService _cartonService;
+        IAuthenticationService _authenticationService;
         CartonController _cartonController;
 
         public CartonControllerTest()
         {
             _cartonService = new FakeCartonService();
-            _cartonController = new CartonController(_cartonService);
+            _cartonController = new CartonController(_cartonService, _authenticationService);
         }
 
         [Fact]
